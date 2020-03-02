@@ -22,7 +22,7 @@ RUN yum update-minimal --security -y && \
   wget \
   && yum clean all && rm -rf /var/cache/yum /tmp/* /var/tmp/*
 
-RUN curl -s https://jedrecord.com/software/sysinfo/latest -o /usr/bin/sysinfo \
-  && chmod 755 /usr/bin/sysinfo
+RUN curl -s https://raw.githubusercontent.com/jedrecord/sysinfo/master/sysinfo \
+  -o /usr/bin/sysinfo && chmod 755 /usr/bin/sysinfo
 
 CMD [ "/bin/bash" ]
