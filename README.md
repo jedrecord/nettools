@@ -29,3 +29,8 @@ spec:
       - "3600"
     imagePullPolicy: IfNotPresent
   restartPolicy: Never
+````
+
+If you just want to use the network tools on a docker host:
+
+`docker run -it jrecord/nettools`
