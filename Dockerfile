@@ -4,9 +4,12 @@ MAINTAINER Jed Record <erecord@lenovo.com>
 
 RUN yum update-minimal --security -y && \
   yum install -y \
+  arpwatch \
   bind-utils \
   curl \
   dropwatch \
+  iperf3 \
+  mtr \
   nano \
   net-tools \
   nmap \
