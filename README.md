@@ -1,3 +1,7 @@
+[![Docker build](https://img.shields.io/docker/cloud/automated/jrecord/nettools?logo=Docker)](https://hub.docker.com/r/jrecord/nettools)
+[![Docker status](https://img.shields.io/docker/cloud/build/jrecord/nettools?logo=Docker)](https://hub.docker.com/r/jrecord/nettools)
+[![Docker pulls](https://img.shields.io/docker/pulls/jrecord/nettools?logo=Docker)](https://hub.docker.com/r/jrecord/nettools)
+
 # nettools
 Container image with network tools for troubleshooting Kubernetes clusters
 
